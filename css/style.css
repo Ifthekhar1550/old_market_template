@@ -44,7 +44,7 @@ p{
   
 }
 .search input{
-    padding: 25px 17%;
+    padding: 15px 17%;
     border-radius: 30px;
     
     outline: none;
@@ -53,7 +53,7 @@ p{
 }
 .fa-magnifying-glass{
     position: absolute;
-    top: 33%;
+    top: 28%;
     left: 68%;
     font-size: 30px;
     background-color: orange;
@@ -119,4 +119,35 @@ p{
 }
 .banner{
     justify-content: space-around;
+}
+.line{
+    width: 100%;
+   padding-top: 1px;
+  background-color:  #063c66;
+}
+.app img{
+    width: 30%;
+}
+.fa-facebook-f{
+    background-color: #3b5998;
+    padding: 8px;
+    border-radius: 32% ;
+    color: #fdfdfd;
+}
+.fa-twitter{
+    background-color: #55acee;
+    padding: 8px;
+    border-radius: 32% ;
+    color: #fdfdfd;
+
+}
+.fa-instagram{
+    background-color: #ff0468;
+    padding: 8px;
+    border-radius: 32% ;
+    color: #fdfdfd;
+}
+.btn-or{
+    background-color: orange;
+    border-radius: 25%;
 }
