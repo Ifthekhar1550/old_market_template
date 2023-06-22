@@ -1,153 +1,134 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header-bg{
-    background: #063c66;
+.header-bg {
+  background: #063c66;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
-nav{
-    flex: 1;
-    text-align: right;
+nav {
+  flex: 1;
+  text-align: right;
 }
-nav ul{
-
-list-style-type : none;
-display: inline-block;
-
-
+nav ul {
+  list-style-type: none;
+  display: inline-block;
 }
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
 }
-a{
-    text-decoration: none;
-    color: #fdfdfd;
-    
+a {
+  text-decoration: none;
+  color: #fdfdfd;
 }
-p{
-    color: #fdfdfd;
+p {
+  color: #fdfdfd;
 }
 
-.search{
-    padding: 20px;
-    text-align: center;
-    position: relative;
-   
-  
+.search {
+  padding: 20px;
+  text-align: center;
+  position: relative;
 }
-.search input{
-    padding: 15px 17%;
-    border-radius: 30px;
-    
-    outline: none;
-    border: none;
-    
-}
-.fa-magnifying-glass{
-    position: absolute;
-    top: 28%;
-    left: 68%;
-    font-size: 30px;
-    background-color: orange;
-    
-    width: 50px;
-   
-}
-.fa__body{
-    
-    padding: 7px;
-    border-radius: 50%;
-}
-.category{
-    height: auto;
-    
-    
-    
-    background-color: rgb(255, 255, 255);
+.search input {
+  padding: 15px 17%;
+  border-radius: 30px;
 
+  outline: none;
+  border: none;
 }
-.category__title{
- color: rgb(4, 4, 4);
- width: 100%;
- padding: 3%;
+.fa-magnifying-glass {
+  position: absolute;
+  top: 28%;
+  left: 68%;
+  font-size: 30px;
+  background-color: orange;
+
+  width: 50px;
+}
+.fa__body {
+  padding: 7px;
+  border-radius: 50%;
+}
+.category {
+  height: auto;
+
+  background-color: rgb(255, 255, 255);
+}
+.category__title {
+  color: rgb(4, 4, 4);
+  width: 100%;
+  padding: 3%;
 }
 .category ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
- 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.category ul li{
-     margin-top: 5%;
-   width: 100%;
-   list-style: none;
+.category ul li {
+  margin-top: 5%;
+  width: 100%;
+  list-style: none;
 }
-.card{
-    
-    border: none;
+.card {
+  border: none;
 }
 
 .quick-link ul {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.quick-link ul li{
-    margin-top: 3%;
-    width: 100%;
-    list-style: none;
+.quick-link ul li {
+  margin-top: 3%;
+  width: 100%;
+  list-style: none;
 }
-.card__color{
-
-    background-color: #063c66;
+.card__color {
+  background-color: #063c66;
 }
-.card__title{
-    color: aliceblue;
+.card__title {
+  color: aliceblue;
 }
-.card__text{
-    color: black;
+.card__text {
+  color: black;
 }
-.banner{
-    justify-content: space-around;
+.banner {
+  justify-content: space-around;
 }
-.line{
-    width: 100%;
-   padding-top: 1px;
-  background-color:  #063c66;
+.line {
+  width: 100%;
+  padding-top: 0.1px;
+  background-color: #063c66;
 }
-.app img{
-    width: 30%;
+.app img {
+  width: 30%;
 }
-.fa-facebook-f{
-    background-color: #3b5998;
-    padding: 8px;
-    border-radius: 32% ;
-    color: #fdfdfd;
+.fa-facebook-f {
+  background-color: #3b5998;
+  padding: 8px;
+  border-radius: 32%;
+  color: #fdfdfd;
 }
-.fa-twitter{
-    background-color: #55acee;
-    padding: 8px;
-    border-radius: 32% ;
-    color: #fdfdfd;
-
+.fa-twitter {
+  background-color: #55acee;
+  padding: 8px;
+  border-radius: 32%;
+  color: #fdfdfd;
 }
-.fa-instagram{
-    background-color: #ff0468;
-    padding: 8px;
-    border-radius: 32% ;
-    color: #fdfdfd;
+.fa-instagram {
+  background-color: #ff0468;
+  padding: 8px;
+  border-radius: 32%;
+  color: #fdfdfd;
 }
-.btn-or{
-    background-color: orange;
-    border-radius: 25%;
+.btn-or {
+  background-color: orange;
+  border-radius: 25%;
 }
